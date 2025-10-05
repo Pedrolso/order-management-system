@@ -1,7 +1,9 @@
 # Order Management System (Java)
 
 ## Description
-Java CRUD project for managing orders with input validation, status tracking via Enum, search by code or prefix, status updates, and history logging. Console-based interface for creating, updating, listing, and deleting orders.
+A simple console-based order management system. Allows you to create, update, list, search, delete orders, and change the status of each order. Order codes are normalized (lowercase, no dashes), and IDs must be positive numbers.
+
+This project was developed following good Java programming practices, without using any frameworks or databases, focusing on clean code, validations, and proper design of entities and services.
 
 ## Features
 - Create, update, and delete orders  
@@ -11,11 +13,11 @@ Java CRUD project for managing orders with input validation, status tracking via
 - Input validation for ID, code, and color  
 - Console-based user interface
 
-## Uso
-- Execute o programa e interaja com o menu do console para gerenciar pedidos.  
-- Ações disponíveis: Adicionar, Atualizar, Listar, Buscar (por código ou prefixo), Excluir e Atualizar Status.  
-- IDs dos pedidos devem ser numéricos e maiores que 0.  
-- Os códigos dos pedidos são formatados automaticamente: letras minúsculas, sem traços e sem espaços no início. 
+## Usage
+- Run the program and interact with the console menu to manage orders.  
+- Available actions: Add, Update, List, Search (by code or prefix), Delete, and Update Status.  
+- Order IDs must be numeric and greater than 0.  
+- Order codes are automatically formatted: lowercase letters, no dashes, and no leading spaces.  
 
 ## Menu Example
 Select an option:
